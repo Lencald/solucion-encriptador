@@ -1,0 +1,54 @@
+body{
+    background-color: #181A1B;
+}
+
+/*Header*/
+header{ 
+    background: linear-gradient(#5F676B,#181A1B);
+}
+
+header img{
+    padding: 10px;
+    margin: auto;
+    display: block;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+/*Main*/
+label{
+    padding: 10px;
+    color: white;
+}
+p{
+    color: white;
+}
+.mensaje{
+    padding-top: 80px;
+}
+.row{
+    padding: 20px;
+}
+.botones{
+    text-align: center;
+    padding: 20px;
+}
+.form-control{
+    background-color: rgb(24, 26, 27);
+    color: white;
+}
+.form-control:focus{
+    color: rgb(209, 205, 199);
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(1, 57, 137);
+    outline-color: initial;
+    box-shadow: rgb(2 80 196 / 25%) 0px 0px 0px 0.25rem;
+}
+
+/*Footer*/
+#copi{
+    background: linear-gradient(#181A1B, #5F676B) ;
+}
